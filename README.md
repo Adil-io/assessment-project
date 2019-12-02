@@ -31,7 +31,7 @@
 
 ## Live Links
 * Resume https://adil-io.github.io
-* assessment-project https://adil-io.github.io/assessment-project/books.html
+* assessment-project https://adil-io.github.io/assessment-project
 
 
  
