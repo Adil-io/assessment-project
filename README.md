@@ -19,19 +19,19 @@
      * TV TopRated https://api.themoviedb.org/3/tv/top_rated?api_key=abdca3eea1b7fb0c1f10423e2fc33135
 
 * Movies 
-         * QuerySearch https://api.themoviedb.org/3/search/movie?api_key=abdca3eea1b7fb0c1f10423e2fc33135&query=${query.value}
-         * QueryDetails https://api.themoviedb.org/3/movie/${movie_id}?api_key=abdca3eea1b7fb0c1f10423e2fc33135
-         * QueryVideos https://api.themoviedb.org/3/movie/${movie_id}/videos?api_key=abdca3eea1b7fb0c1f10423e2fc33135
-         * Movies NowPlaying https://api.themoviedb.org/3/movie/now_playing?api_key=abdca3eea1b7fb0c1f10423e2fc33135
-         * Movies Upcoming https://api.themoviedb.org/3/movie/upcoming?api_key=abdca3eea1b7fb0c1f10423e2fc33135
-         * Movies TopRated https://api.themoviedb.org/3/movie/top_rated?api_key=abdca3eea1b7fb0c1f10423e2fc33135
+     * QuerySearch https://api.themoviedb.org/3/search/movie?api_key=abdca3eea1b7fb0c1f10423e2fc33135&query=${query.value}
+     * QueryDetails https://api.themoviedb.org/3/movie/${movie_id}?api_key=abdca3eea1b7fb0c1f10423e2fc33135
+     * QueryVideos https://api.themoviedb.org/3/movie/${movie_id}/videos?api_key=abdca3eea1b7fb0c1f10423e2fc33135
+     * Movies NowPlaying https://api.themoviedb.org/3/movie/now_playing?api_key=abdca3eea1b7fb0c1f10423e2fc33135
+     * Movies Upcoming https://api.themoviedb.org/3/movie/upcoming?api_key=abdca3eea1b7fb0c1f10423e2fc33135
+     * Movies TopRated https://api.themoviedb.org/3/movie/top_rated?api_key=abdca3eea1b7fb0c1f10423e2fc33135
          
 * Books 
-         * QueryDetails https://itunes.apple.com/search?country=us&term=${query.value}&media=ebook&entity=ebook         
+     * QueryDetails https://itunes.apple.com/search?country=us&term=${query.value}&media=ebook&entity=ebook         
 
-##Live Links
-Resume https://adil-io.github.io
-assessment-project https://adil-io.github.io/assessment-project/books.html
+## Live Links
+* Resume https://adil-io.github.io
+* assessment-project https://adil-io.github.io/assessment-project/books.html
 
 
  
