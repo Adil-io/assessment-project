@@ -20,8 +20,9 @@ ip.onkeyup = function (e) {
 
 function initiate() {
   var xhr = new XMLHttpRequest()
-  var url = "https://cors-anywhere.herokuapp.com/https://itunes.apple.com/search?country=us&term=" + ip.value + "&media=ebook&entity=ebook"
+  var url = "https://itunes.apple.com/search?country=us&term=" + ip.value + "&media=ebook&entity=ebook"
   xhr.open('GET', url)
+  xhr.withCredentials = true
   ip.value = ""
   parentDiv.innerHTML = ""
   xhr.onreadystatechange = function () {
