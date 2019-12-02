@@ -20,9 +20,8 @@ ip.onkeyup = function (e) {
 
 function initiate() {
   var xhr = new XMLHttpRequest()
-  var url = "https://itunes.apple.com/search?country=us&term=" + ip.value + "&media=ebook&entity=ebook"
+  var url = "https://itunes.apple.com/search?country=us&term=" + ip.value + "&media=ebook&entity=ebook&callback=wsSearchCB"
   xhr.open('GET', url)
-  xhr.withCredentials = true
   ip.value = ""
   parentDiv.innerHTML = ""
   xhr.onreadystatechange = function () {
