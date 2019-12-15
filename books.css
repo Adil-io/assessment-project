@@ -8,6 +8,7 @@
 body,html{
     background-image: url('books.jpg');
     scroll-behavior: smooth;
+    background-attachment: fixed;
 }
 
 ::-webkit-scrollbar{
